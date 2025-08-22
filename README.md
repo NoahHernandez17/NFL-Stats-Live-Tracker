@@ -4,12 +4,14 @@ Live pro football player stats (QB/RB/WR/TE) - streamed from ESPN box scores int
 
 Features
 
-Regular/Postseason only (ESPN JSON APIs)
+* Regular/Postseason only (ESPN JSON APIs)
 
-Position-filtered leaders: QB, RB, WR, TE
+* Position-filtered leaders: QB, RB, WR, TE
 
-Stable CSV schema for Tableau (no broken fields)
+* Stable CSV schema for Tableau (no broken fields)
 
-Atomic writes to avoid partial-file reads
+* Atomic writes to avoid partial-file reads
 
-Configurable refresh interval (default 15–60s)
+* Configurable refresh interval (default 15–60s)
+
+
